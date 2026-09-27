@@ -1,0 +1,11 @@
+{
+  "UiPath.DocumentProcessing.Contracts": "2.4.0-preview",
+  "UiPath.Excel.Activities": "3.6.0-preview",
+  "UiPath.GSuite.Activities": "3.12.0-preview",
+  "UiPath.MicrosoftOffice365.Activities": "3.12.0-preview",
+  "UiPath.OCR.Activities": "4.3.0",
+  "UiPath.PDF.Activities": "4.5.0-preview",
+  "UiPath.System.Activities": "26.8.2",
+  "UiPath.UIAutomation.Activities": "26.10.4",
+  "UiPath.Word.Activities": "2.6.0-preview"
+}

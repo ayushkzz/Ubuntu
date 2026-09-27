@@ -1,0 +1,6 @@
+{
+  "Name": "Ubuntu",
+  "ProjectType": "Process",
+  "Description": "Ubuntu 24.04 LTS",
+  "MainFile": "Main.xaml"
+}

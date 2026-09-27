@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="LymAOzixdU6Gqh5z55ZUqw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="docs.google.com/forms/d/e/1FAIpQLScCNarcBQqDlLKMBVSow2ElFfQw6UatkuutjuVklW2I9tRq_Q/viewform" DesignTimeRectangle="591, 721, 369, 30" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl idx='2' tag='INPUT' type='text' /&gt;" Guid="db8be346-a0a7-4d98-9aec-f17b7cb04436" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Personal Details' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="dff2a29d34ca13d84deb1b0fa47c4eb7.jpg" xmlns="">062g3NS4ufkGVCILp-fm3cQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

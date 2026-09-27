@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Personal Details",
+  "Type": "Screen",
+  "Id": "R5e5vGFl40qe9MuAM29lng",
+  "Reference": "l9_2x9UGXkSk5H8Jh0dXZQ/R5e5vGFl40qe9MuAM29lng",
+  "ParentRef": "l9_2x9UGXkSk5H8Jh0dXZQ/9f-ZlYl1YEqfxYjA0OxtXA",
+  "Created": "2026-09-26T20:27:14.186466Z",
+  "Updated": "2026-09-26T20:27:14.186466Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
