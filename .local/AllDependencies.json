@@ -26769,8 +26769,8 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "Final Prep",
-      "projectName": "Final Prep",
+      "projectUniqueName": "Ubuntu",
+      "projectName": "Ubuntu",
       "projectPath": "C:\\Users\\ayush\\OneDrive\\Documents\\UiPath\\Final Prep\\.local",
       "packagesPath": "C:\\Users\\ayush\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\ayush\\OneDrive\\Documents\\UiPath\\Final Prep\\.local",

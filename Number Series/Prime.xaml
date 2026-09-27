@@ -72,9 +72,12 @@
       <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
       <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
       <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+      <AssemblyReference>UiPath.Word.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Prime" sap:VirtualizedContainerService.HintSize="704.4000000000001,2367.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Prime" sap:VirtualizedContainerService.HintSize="648.4000000000001,2367.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -99,7 +102,7 @@
           <InArgument x:TypeArguments="x:Int32">1</InArgument>
         </Assign.Value>
       </Assign>
-      <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="521.6,122.4" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="Prime Numbers Till 100: " />
+      <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="521.6,122.4" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="Prime Numbers: " />
       <ui:InterruptibleWhile CurrentIndex="{x:Null}" DisplayName="While" sap:VirtualizedContainerService.HintSize="521.6,1964" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_1">
         <ui:InterruptibleWhile.Body>
           <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="520,1842.4" sap2010:WorkflowViewState.IdRef="Sequence_3">
@@ -172,7 +175,7 @@
                 </Sequence>
               </ui:InterruptibleWhile.Body>
               <ui:InterruptibleWhile.Condition>
-                <VisualBasicValue x:TypeArguments="x:Boolean" DisplayName="Visual basic value" ExpressionText="j &lt; i" />
+                <VisualBasicValue x:TypeArguments="x:Boolean" DisplayName="Visual basic value" ExpressionText="j &lt;= Math.Sqrt(i)" />
               </ui:InterruptibleWhile.Condition>
             </ui:InterruptibleWhile>
             <If Condition="[isPrime = True]" sap:VirtualizedContainerService.HintSize="486.4,401.6" sap2010:WorkflowViewState.IdRef="If_2">
@@ -207,7 +210,7 @@
           </Sequence>
         </ui:InterruptibleWhile.Body>
         <ui:InterruptibleWhile.Condition>
-          <VisualBasicValue x:TypeArguments="x:Boolean" DisplayName="Visual basic value" ExpressionText="i &lt;= 100" />
+          <Literal x:TypeArguments="x:Boolean" DisplayName="Literal" Value="True" />
         </ui:InterruptibleWhile.Condition>
       </ui:InterruptibleWhile>
     </Sequence>

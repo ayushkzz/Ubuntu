@@ -78,7 +78,7 @@
       <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Flowchart DisplayName="GuessGame" sap:VirtualizedContainerService.HintSize="1082.4,411.2" sap2010:WorkflowViewState.IdRef="Flowchart_1">
+  <Flowchart DisplayName="GuessGame" sap:VirtualizedContainerService.HintSize="654.4000000000001,634.4" sap2010:WorkflowViewState.IdRef="Flowchart_1">
     <Flowchart.Variables>
       <Variable x:TypeArguments="x:Int32" Name="randomNo" />
       <Variable x:TypeArguments="x:Int32" Name="guessedNo" />
@@ -151,17 +151,14 @@
                 </sap:WorkflowViewStateService.ViewState>
               </ui:InputDialog>
               <FlowStep.Next>
-                <FlowDecision x:Name="__ReferenceID2" DisplayName="Flow Decision" sap:VirtualizedContainerService.HintSize="60,60" sap2010:WorkflowViewState.IdRef="FlowDecision_1">
-                  <FlowDecision.Condition>
-                    <VisualBasicValue x:TypeArguments="x:Boolean" DisplayName="Visual basic value" ExpressionText="randomNo = guessedNo" />
-                  </FlowDecision.Condition>
+                <FlowDecision x:Name="__ReferenceID2" Condition="[randomNo = guessedNo]" DisplayName="Flow Decision" sap:VirtualizedContainerService.HintSize="60,60" sap2010:WorkflowViewState.IdRef="FlowDecision_1">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       <av:Point x:Key="ShapeLocation">520,490</av:Point>
                       <av:Size x:Key="ShapeSize">60,60</av:Size>
                       <av:PointCollection x:Key="TrueConnector">580,520 610,520 610,520.2 715,520.2</av:PointCollection>
-                      <av:PointCollection x:Key="FalseConnector">550,550 550,600</av:PointCollection>
+                      <av:PointCollection x:Key="FalseConnector">550,550 550,630</av:PointCollection>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
                   <FlowDecision.True>
@@ -182,26 +179,23 @@
                     </FlowStep>
                   </FlowDecision.True>
                   <FlowDecision.False>
-                    <FlowDecision x:Name="__ReferenceID4" DisplayName="Flow Decision" sap:VirtualizedContainerService.HintSize="60,60" sap2010:WorkflowViewState.IdRef="FlowDecision_2">
-                      <FlowDecision.Condition>
-                        <VisualBasicValue x:TypeArguments="x:Boolean" DisplayName="Visual basic value" ExpressionText="randomNo &lt; guessedNo" />
-                      </FlowDecision.Condition>
+                    <FlowDecision x:Name="__ReferenceID4" Condition="[randomNo &lt; guessedNo]" DisplayName="Flow Decision" sap:VirtualizedContainerService.HintSize="60,60" sap2010:WorkflowViewState.IdRef="FlowDecision_2">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                          <av:Point x:Key="ShapeLocation">520,600</av:Point>
+                          <av:Point x:Key="ShapeLocation">520,630</av:Point>
                           <av:Size x:Key="ShapeSize">60,60</av:Size>
-                          <av:PointCollection x:Key="TrueConnector">520,630 490,630 490,630.2 415.4,630.2</av:PointCollection>
-                          <av:PointCollection x:Key="FalseConnector">550,660 550,690 550.2,690 550.2,745</av:PointCollection>
+                          <av:PointCollection x:Key="TrueConnector">520,660 490,660 490,660.2 415.4,660.2</av:PointCollection>
+                          <av:PointCollection x:Key="FalseConnector">550,690 550,720 550.2,720 550.2,745</av:PointCollection>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                       <FlowDecision.True>
                         <FlowStep x:Name="__ReferenceID5">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                              <av:Point x:Key="ShapeLocation">305,595</av:Point>
+                              <av:Point x:Key="ShapeLocation">305,625</av:Point>
                               <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
-                              <av:PointCollection x:Key="ConnectorLocation">360.2,595 360.2,410.2 495,410.2</av:PointCollection>
+                              <av:PointCollection x:Key="ConnectorLocation">360.2,625 360.2,410.2 495,410.2</av:PointCollection>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
                           <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="WriteLine_3" Text="Your Guess was higher">
